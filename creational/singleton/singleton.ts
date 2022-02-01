@@ -11,9 +11,7 @@ class Singleton {
     }
 
 
-    public someBusinessLogic() {
-
-    }
+    public someBusinessLogic() {}
 }
 
 export {
