@@ -8,7 +8,7 @@ it('returns ConcreteCreator1', () => {
 })
 
 
-xit('returns ConcreteCreator2', () => {
+it('returns ConcreteCreator2', () => {
     console.log('App: Launched with the ConcreteCreator2.');
     const result = clientCode(new ConcreteCreator2());
     expect(result).toEqual("Creator: The same creator's code has just worked with {Result of the ConcreteProduct2}")
